@@ -15,9 +15,12 @@ class Main {
         year = input.nextInt();
         // System.out.println(year % 4);
 
-        if (year % 4 == 0){
-            System.out.println("It is a leap year!");
+        if (year % 4 == 0 && year % 100 != 0 || year % 200 == 0){
+            result = " ";
+        } else {
+            result = " not ";
         }
 
+        System.out.println("It is" + result + "a leap year!");
     }
 }
