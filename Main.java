@@ -21,6 +21,6 @@ class Main {
             result = " not ";
         }
 
-        System.out.println("It is" + result + "a leap year!");
+        System.out.println("The year " + year + " is" + result + "a leap year!");
     }
 }
